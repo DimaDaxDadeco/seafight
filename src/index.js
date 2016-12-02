@@ -1,10 +1,10 @@
 import angular from "angular";
-// import "./components";
+import "./components";
 import "angular-ui-router";
-console.log("check");
 angular
     .module("SeaFight", [
-        "ui.router"
+        "ui.router",
+        "battlefield"
     ]).config($locationProvider => {
         $locationProvider.html5Mode({
             enabled: true,
