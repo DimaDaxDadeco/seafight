@@ -1,0 +1,8 @@
+<dock></dock>
+<div class="arrangement col-xs-12">
+    <p>Please, arrange sheeps on the field</p>
+    <div class="field">
+        <header-field></header-field>
+        <row-field ng-repeat="row in $ctrl.field track by $index" row-index="$index+1" field="$ctrl.field"></row-field>
+    </div>
+</div>

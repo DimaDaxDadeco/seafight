@@ -1,0 +1,33 @@
+.field {
+    margin: 0 auto;
+    display: inline-block;
+    width: 550px;
+    .header-field {
+            .cell {
+                border-top: 1px solid #000;
+                &:last-child {
+                 border-right: 1px solid #000;
+                }
+            }
+    }
+    .cell {
+        float: left;
+        border: 1px solid #000;
+        border-right: none;
+        border-top: none;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        background: #fff;
+    }
+    cell-field {
+        .cell {
+            border-right: none;
+        }
+        &:last-child {
+            .cell {
+                border-right: 1px solid #000;
+            }
+        }
+    }
+}
