@@ -3,7 +3,7 @@ import angular from "angular";
 import "angular-ui-router";
 console.log("check");
 angular
-    .module("NoughtsAndCrosses", [
+    .module("SeaFight", [
         "ui.router"
     ]).config($locationProvider => {
         $locationProvider.html5Mode({
